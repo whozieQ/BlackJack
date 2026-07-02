@@ -62,4 +62,7 @@ function newCard() {
         cards.push(card)
         renderGame()        
     }
+    else {
+        console.log("Cannot give new card - not alive or already have blackjack")
+    }
 }
